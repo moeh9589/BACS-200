@@ -1,0 +1,33 @@
+body{
+    background-color: #A9A9A9;
+}
+h1 {
+    font-family: serif;
+    font-size: 220%;
+    color: firebrick;
+    text-align: center
+}
+p {
+    font-family: cursive;
+    font-weight: bolder;
+    color: firebrick;
+    font-size: 110%;
+}
+a {
+    color:darkkhaki;
+    font-family:monospace
+}
+a:hover{
+    color:aquamarine;
+    background-color: black;
+}
+li{
+    color: firebrick;
+    font-family: fantasy;
+    font-size: 150%;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    color: firebrick;
+}
