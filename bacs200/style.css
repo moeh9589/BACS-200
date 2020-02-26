@@ -1,5 +1,6 @@
 body{
-    background-color: darkslategray;
+    background-color: lightgray;
+    text-align: center;
 }
 h1 {
     font-family: serif;
@@ -25,9 +26,19 @@ li{
     color: firebrick;
     font-family: fantasy;
     font-size: 150%;
+    padding-right:10%;
+    
+   
 }
 h2{
     text-align: center;
     text-decoration: underline;
     color: firebrick;
+}
+div {
+    margin-left: 25%;
+    width:50%;
+    border-radius: 3px;
+    background-color:black;
+    
 }
