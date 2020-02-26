@@ -8,11 +8,16 @@ header {
     background-color: white;
 }
 
-footer {
+footer  {
 
     background-color: black;
     text-align: center;
     color: white;
+}
+footer a{
+    color:white;
+    font-size: 12px;
+    font-family: "Courier New" 
 }
 
 main {
@@ -23,12 +28,17 @@ h1, h2{
     text-align: center;
 }
 .div {
-    padding-left: 7%;
-    padding-right: 7%;
+    margin-left: 7%;
+    margin-right: 7%;
     height:60%;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+
 }
 .otherdiv {
     float:right;
-    padding-right: 20%
+    padding-right: 20%;
+    border-radius: 25px;
+        border: 2px solid #73AD21;
 }
 
