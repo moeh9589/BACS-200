@@ -1,3 +1,28 @@
 h1 {
-color: blue;
+color: lightgoldenrodyellow;
+}
+div {
+    
+    margin-top:20%;
+    margin-bottom:40%;
+    margin-right: 30%;
+    margin-left:30%;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: midnightblue
+}
+body{
+    text-align: center;
+    font-size: 20px;
+    color: lightgoldenrodyellow;
+}
+a:hover{
+    color: hotpink
+}
+a {
+    color: lightgoldenrodyellow;
+
+}
+li{
+    color: midnightblue
 }
