@@ -1,44 +1,64 @@
-body{
+body {
     background-color: lightgray;
     text-align: center;
 }
+
 h1 {
     font-family: serif;
     font-size: 220%;
     color: firebrick;
     text-align: center;
 }
+
 p {
     font-family: cursive;
     font-weight: bolder;
-    color: firebrick;
+    color: darkkhaki;
     font-size: 110%;
-}
-a {
-    color:darkkhaki;
-    font-family:monospace
-}
-a:hover{
-    color:aquamarine;
+    border-radius: 30px;
+    border: 3px solid firebrick;
+    margin: auto;
+    margin-bottom: 15px;
+    width: 60%;
     background-color: black;
 }
-li{
-    color: firebrick;
+
+a {
+    color: darkkhaki;
+    font-family: monospace;
+}
+
+a:hover {
+    color: aquamarine;
+    background-color: black;
+}
+
+li {
+    color: black;
     font-family: fantasy;
     font-size: 150%;
-    padding-right:10%;
-    
-   
+    padding-right: 10%;
+
+
+
 }
-h2{
+
+h2 {
     text-align: center;
     text-decoration: underline;
     color: firebrick;
 }
+
 div {
-    margin-left: 25%;
-    width:50%;
-    border-radius: 3px;
-    background-color:black;
-    
+    margin-left: 19%;
+    width: 50%;
+    border-radius: 30px;
+    border: 3px solid firebrick;
+    background-color: black;
+    padding-right: 8%;
+    padding-left: 4%
+
+}
+a:visited{
+    color:deeppink;
 }
