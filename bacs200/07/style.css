@@ -1,3 +1,8 @@
+body{
+    text-align: center;
+    font-size: 20px;
+    color: #fafad2;
+}
 h1 {
 color: lightgoldenrodyellow;
 }
@@ -11,11 +16,7 @@ div {
     border-radius: 20px;
     background-color: #191970;
 }
-body{
-    text-align: center;
-    font-size: 20px;
-    color: #fafad2;
-}
+
 a:hover{
     color: #FF69B4;
 }
