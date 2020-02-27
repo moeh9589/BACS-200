@@ -17,23 +17,23 @@ h1 {
 
 @keyframes blinkingText {
     0% {
-        color: firebrick;
+        color: darkkhaki;
     }
 
     49% {
-        color:firebrick;
+        color:transparent;
     }
 
     60% {
-        color: transparent;
+        color: darkkhaki;
     }
 
     99% {
-        color: transparent;
+        color: firebrick;
     }
 
     100% {
-        color: firebrick;
+        color:transparent;
     }
 }
 
