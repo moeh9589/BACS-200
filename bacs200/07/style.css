@@ -9,20 +9,20 @@ div {
     margin-left:30%;
     border: 2px solid black;
     border-radius: 20px;
-    background-color: midnightblue
+    background-color: #191970;
 }
 body{
     text-align: center;
     font-size: 20px;
-    color: lightgoldenrodyellow;
+    color: #fafad2;
 }
 a:hover{
-    color: hotpink
+    color: #FF69B4;
 }
 a {
-    color: lightgoldenrodyellow;
+    color: #fafad2;
 
 }
 li{
-    color: midnightblue;
+    color: #191970;
 }
