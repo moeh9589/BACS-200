@@ -86,9 +86,6 @@ div {
     padding-left: 4%
 }
 
-a:visited {
-    color: deepskyblue;
-}
 
 a:visited:hover {
     color: aquamarine;
