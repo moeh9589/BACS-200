@@ -1,3 +1,29 @@
+body{
+    text-align: center;
+    font-size: 20px;
+    color: #fafad2;
+}
 h1 {
-color: blue;
+color: lightgoldenrodyellow;
+}
+div {
+    
+    margin-top:20%;
+    margin-bottom:40%;
+    margin-right: 30%;
+    margin-left:30%;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #191970;
+}
+
+a:hover{
+    color: #FF69B4;
+}
+a {
+    color: #fafad2;
+
+}
+li{
+    color: #191970;
 }
