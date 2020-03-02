@@ -63,6 +63,7 @@ a {
 a:hover {
     color: aquamarine;
     background-color: black;
+    animation: blinkingText 1.8s infinite;
 }
 
 li {
@@ -92,4 +93,6 @@ div {
 
 a:visited:hover {
     color: aquamarine;
+    animation: blinkingText 1.8s infinite;
+    
 }
