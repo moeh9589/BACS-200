@@ -62,9 +62,10 @@ a:hover {
 
 li {
     color: black;
+    text-align: left;
     font-family: fantasy;
     font-size: 150%;
-    padding-right: 10%;
+    padding-left: 26%;
 }
 
 h2 {
