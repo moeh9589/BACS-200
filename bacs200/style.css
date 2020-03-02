@@ -1,3 +1,28 @@
+.blinking {
+    animation: blinkingText 1.8s infinite;
+}
+
+@keyframes blinkingText {
+    0% {
+        color: darkkhaki;
+    }
+
+    49% {
+        color: transparent;
+    }
+
+    60% {
+        color: darkkhaki;
+    }
+
+    99% {
+        color: firebrick;
+    }
+
+    100% {
+        color: transparent;
+    }
+}
 body {
     background-color: lightgray;
     text-align: center;
@@ -11,31 +36,7 @@ h1 {
 
 }
 
-.blinking {
-    animation: blinkingText 1.8s infinite;
-}
 
-@keyframes blinkingText {
-    0% {
-        color: darkkhaki;
-    }
-
-    49% {
-        color:transparent;
-    }
-
-    60% {
-        color: darkkhaki;
-    }
-
-    99% {
-        color: firebrick;
-    }
-
-    100% {
-        color:transparent;
-    }
-}
 
 p {
     font-family: cursive;
@@ -64,16 +65,7 @@ li {
     color: black;
     font-family: fantasy;
     font-size: 150%;
-<<<<<<< HEAD
-    
-    
-   
-=======
     padding-right: 10%;
-
-
-
->>>>>>> 3e069cce5af4cd641a0000fc2efc3d288b9f0871
 }
 
 h2 {
