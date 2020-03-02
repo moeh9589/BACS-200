@@ -1,3 +1,16 @@
+body {
+    background-color: lightgray;
+    text-align: center;
+}
+
+h1 {
+    font-family: serif;
+    font-size: 221%;
+    color: firebrick;
+    text-align: center;
+
+}
+
 .blinking {
     animation: blinkingText 1.8s infinite;
 }
@@ -23,20 +36,6 @@
         color: transparent;
     }
 }
-body {
-    background-color: lightgray;
-    text-align: center;
-}
-
-h1 {
-    font-family: serif;
-    font-size: 221%;
-    color: firebrick;
-    text-align: center;
-
-}
-
-
 
 p {
     font-family: cursive;
@@ -47,7 +46,7 @@ p {
     border: 3px solid firebrick;
     margin: auto;
     margin-bottom: 15px;
-    width: 60%;
+    width: 62%;
     background-color: black;
 }
 
