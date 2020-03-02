@@ -14,18 +14,23 @@ h1 {
 .blinking {
     animation: blinkingText 1.8s infinite;
 }
-
+#example1{
+	color: white;
+	font-size: 40px;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
 @keyframes blinkingText {
     0% {
-        color: darkkhaki;
-    }
-
-    49% {
         color: transparent;
     }
 
-    60% {
+    49% {
         color: darkkhaki;
+    }
+
+    60% {
+        color: transparent;
     }
 
     99% {
@@ -33,7 +38,7 @@ h1 {
     }
 
     100% {
-        color: transparent;
+        color: firebrick;
     }
 }
 
@@ -43,7 +48,7 @@ p {
     color: darkkhaki;
     font-size: 110%;
     border-radius: 30px;
-    border: 3px solid firebrick;
+    border: 9px ridge firebrick;
     margin: auto;
     margin-bottom: 15px;
     width: 62%;
@@ -78,7 +83,7 @@ div {
     margin-left: 19%;
     width: 50%;
     border-radius: 30px;
-    border: 3px solid firebrick;
+    border: 9px ridge firebrick;
     background-color: black;
     padding-right: 8%;
     padding-left: 4%
