@@ -1,0 +1,98 @@
+body {
+    background-color: lightgray;
+    text-align: center;
+}
+
+h1 {
+    font-family: serif;
+    font-size: 221%;
+    color: firebrick;
+    text-align: center;
+
+}
+
+.blinking {
+    animation: blinkingText 1.8s infinite;
+}
+#example1{
+	color: white;
+	font-size: 40px;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+@keyframes blinkingText {
+    0% {
+        color: transparent;
+    }
+
+    49% {
+        color: darkkhaki;
+    }
+
+    60% {
+        color: transparent;
+    }
+
+    99% {
+        color: firebrick;
+    }
+
+    100% {
+        color: firebrick;
+    }
+}
+
+p {
+    font-family: cursive;
+    font-weight: bolder;
+    color: darkkhaki;
+    font-size: 110%;
+    border-radius: 30px;
+    border: 9px ridge firebrick;
+    margin: auto;
+    margin-bottom: 15px;
+    width: 62%;
+    background-color: black;
+}
+
+a {
+    color: darkkhaki;
+    font-family: monospace;
+}
+
+a:hover {
+    color: aquamarine;
+    background-color: black;
+    animation: blinkingText 1.8s infinite;
+}
+
+li {
+    color: black;
+    text-align: left;
+    font-family: fantasy;
+    font-size: 150%;
+    padding-left: 26%;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: firebrick;
+}
+
+div {
+    margin-left: 19%;
+    width: 50%;
+    border-radius: 30px;
+    border: 9px ridge firebrick;
+    background-color: black;
+    padding-right: 8%;
+    padding-left: 4%
+}
+
+
+a:visited:hover {
+    color: aquamarine;
+    animation: blinkingText 1.8s infinite;
+    
+}
