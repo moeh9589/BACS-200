@@ -87,3 +87,13 @@ h2 {
     background-color: white;
     margin-bottom: 6%;
 }
+menu {
+    text-align: center;
+    font-size: 16px;
+    background-color: black;
+    border: 9px ridge firebrick;
+     border-radius: 30px;
+    width: 30%;
+    margin-left:33%;
+    padding-right: 1.5%;
+}
