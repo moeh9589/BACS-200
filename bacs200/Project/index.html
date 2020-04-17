@@ -39,7 +39,95 @@
         @media (min-width: 768px) {
             .bd-placeholder-img-lg {
                 font-size: 3.5rem;
+
             }
+        }
+
+        .blinking {
+            animation: blinkingText 1.8s infinite;
+            font-size: 90px;
+            font-weight: 100;
+
+        }
+
+        #example1 {
+            color: white;
+            font-size: 40px;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: black;
+        }
+
+        @keyframes blinkingText {
+            0% {
+                color: transparent;
+            }
+
+            49% {
+                color: black;
+            }
+
+            60% {
+                color: transparent;
+            }
+
+            99% {
+                color: black;
+            }
+
+            100% {
+                color: transparent;
+            }
+        }
+
+        .container2 {
+            width: 50%;
+        }
+
+        .container1 {
+            position: relative;
+            width: 50%;
+            margin-left: 50%;
+            margin-bottom: 1%;
+        }
+
+        .image {
+            display: block;
+            width: 100%;
+            height: auto;
+           
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: #008CBA;
+
+        }
+
+        .container1:hover .overlay {
+            opacity: 1;
+        }
+
+        .text {
+            color: black;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        .roundimg{
+            border-radius: 50%;
         }
     </style>
     <!-- Custom styles for this template -->
@@ -47,6 +135,7 @@
 </head>
 
 <body>
+    
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -62,18 +151,18 @@
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle"  id="dropdown08" data-toggle="dropdown" aria-haspopup="true" aria expanded="false">Projects</a>
+                    <a class="nav-link dropdown-toggle" id="dropdown08" data-toggle="dropdown" aria-haspopup="true" aria expanded="false">Projects</a>
                     <div class="dropdown-menu" aria-labelledby="dropdown08">
-                        
-                            <ul>
-                        <li><a class="dropdown-item" href="intruct.html">Instruction</a> </li>
-                        <li><a class="dropdown-item" href="home.html">At home</a> </li>
-                                <li><a class="dropdown" href="tourney.html">Tournaments</a></li>
-                        <li><a class="dropdown-item" href="info.html">Basic info</a></li>
-                        <li><a class="dropdown-item" href="history.html">History</a></li>
-                            </ul>
-                            
-                        
+
+                        <ul>
+                            <li><a class="dropdown-item" href="intruct.html">Instruction</a> </li>
+                            <li><a class="dropdown-item" href="home.html">At home</a> </li>
+                            <li><a class="dropdown" href="tourney.html">Tournaments</a></li>
+                            <li><a class="dropdown-item" href="info.html">Basic info</a></li>
+                            <li><a class="dropdown-item" href="history.html">History</a></li>
+                        </ul>
+
+
                     </div>
                 </li>
             </ul>
@@ -85,9 +174,16 @@
         <!-- Main jumbotron for a primary marketing message or call to action -->
         <div class="jumbotron">
             <div class="container">
-                <h1 class="display-3">Disc Golf</h1>
-                <p> Something cool about disc golf </p>
-
+                <div class="container2">
+                    <h1 class="blinking">Disc Golf</h1>
+                    <p> 5 cool tricks: Blinking text, hover over image, hover over image to zoom, hover over image to shake, rounded image to fit the shape of the disc. </p>
+                </div>
+                <div class="container1">
+                    <img src="scenicview.jfif" class="image">
+                    <div class="overlay">
+                        <div class="text">Disc Golf In Norther Virginia</div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -104,7 +200,7 @@
                     <div class="col-auto d-none d-lg-block">
 
                         <title>Placeholder</title>
-                        <img src=".jpg">
+                        <img src="">
 
 
                     </div>
@@ -154,11 +250,17 @@
                         <a href="home.html" class="stretched-link">Click Here</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
-                        <img src="quest.jpg">
+
+                        <img class="roundimg" src="house.jpg">
+                        <div class="overlay">
+                            <div class="text">Home
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </main>
 
     <main role="main" class="container">
@@ -174,7 +276,7 @@
                     <p class="blog-post-meta">Apr 3, 2020 by <a href="#">Justin</a></p>
 
                     <p>
-                        Insert some history about disc golf
+                        Disc golf was said to be created in the early 1900s. It is hard to tell exactly when it was created, but rumors go as far back as the early 1900s.
                     </p>
                     <p>
                         <a href="history.html"> Continue Reading</a>
@@ -231,7 +333,7 @@
 
                 <!-- Copyright -->
                 <div class="footer-copyright text-center py-3">© 2020 Copyright: Justin Moehlenpah
-                    
+
                 </div>
                 <!-- Copyright -->
 
@@ -248,4 +350,6 @@
             </p>
         </footer>
     </main>
-</body></html>
+</body>
+
+</html>
